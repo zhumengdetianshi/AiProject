@@ -1,2 +1,34 @@
-*.class
-*.log
+# Built application files and Maven
+target/
+
+# Lines that start with '#' are comments.
+# IntelliJ IDEA Project files
+.idea
+*.iml
+*.ipr
+*.iws
+out
+ 
+# Eclipse Project files
+.classpath
+.project
+.settings/
+ 
+bin/
+gen/
+local.properties
+ 
+.DS_Store
+Thumbs.db
+ 
+*.bak
+*.tem
+*.temp
+#.swp
+*.*~
+~*.*
+
+
+#Spark
+.metastore_db
+derby.log
